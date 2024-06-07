@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: rosybrown;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    height: 300px;
+}
+#proyecto{
+    border-collapse: collapse;
+
+    width: 3rem;
+    
+}
+.pantalla{
+    background-color: #6B7481;
+    width: 25rem;
+    height: 7rem;
+}
+
+button{
+
+    margin: 0;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.proyecto, #clear, #dividir, #multiplicar, 
+#restar, #sumar, #igual{
+    background-color: #D93030;
+}
+.operacion{
+    background-color: #2E4DA5;
+}

@@ -1,0 +1,44 @@
+html{
+    font-family: "Ubuntu Sans", sans-serif;
+}
+body{
+    background-color: beige;
+}
+body header {
+    font-size: 90px;
+    background-color: darkcyan;
+    padding: 3rem;
+    color: black;
+}
+body h2{
+    font-size: 70px;
+    margin: 2rem;
+}
+body p{
+    font-size: 40px;
+    margin: 3rem;
+    color: black;
+}
+body a{
+    text-decoration: none;
+    color:darkblue;
+}
+footer{
+    background-color: darkslategray;
+    padding: 3rem;
+    color:#fff;
+}
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    transition: color  0.25s ease;
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    color: cornflowerblue;
+}
