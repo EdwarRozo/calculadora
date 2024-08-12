@@ -1,0 +1,50 @@
+.container{
+    margin: 30% auto;
+    width: 500px;
+    background-color: gray;
+    border: 10px black solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* B O T O N E S--G E N E R A L E S  */
+.c{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(6, 26, 90);
+    font-size: 3rem;
+    border-radius: 30%;
+    display: grid;
+    place-content: center;
+    transition: all .4s ease-out;
+}
+.c:hover{
+    transform: translateX(1px) translateY(1px);
+    cursor: pointer;
+}
+/* R E S U L T A D O  */
+.pantalla{
+    width: 496px;
+    height: 80px;
+    background-color: rgb(43, 114, 33);
+}
+/* B O T O N E S  */
+#igual{
+    width: 500px;
+    background-color: darkcyan;
+    border-radius: 30px;
+}
+#mas{
+    background-color: darkgreen;
+}
+#borrar{
+    background-color: darkred;
+}
+#dividir{
+    background-color: rgba(26, 119, 131, 0.767);
+}
+#por{
+    background-color: brown;
+}
+#menos{
+    background-color: rebeccapurple;
+}
