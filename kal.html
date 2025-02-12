@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="kal.css">
-    <title>proto</title>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="kal.css
+    ">
 </head>
 <body>
     <div class="container">
-            <div colspan="4"><input class="pantalla" type="text" readonly id="resultado"/></div>
-            <div class="c">1</div>
-            <div class="c">2</div>
-            <div class="c">3</div>
-            <div class="c">4</div>
-            <div class="c">5</div>                
-            <div class="c">6</div>    
-            <div class="c">7</div>    
-            <div class="c">8</div>
-            <div class="c">9</div>         
-            <div class="c">0</div>          
-            <div class="c" id="dividir">÷</div>
-            <div class="c" id="menos">-</div>
-            <div class="c" id="borrar">c</div>     
-            <div class="c" id="por">x</div>         
-            <div class="c" id="mas">+</div>
-            <div class="c" id="igual">=</div> 
+        <div class="Calculadora">
+            <div class="pantalla">
+                <p id="display"></p>
+                <p id="display-error"></p>
+            </div>
+            <button id="clear">AC</button>
+            <button onclick="divicion" id="dividir">/</button>
+            <button onclick="multiplicacion" id="multiplicar">*</button>
+            <button id="siete">7</button>
+            <button id="ocho">8</button>
+            <button id="nueve">9</button>
+            <button onclick="resta" id="restar">-</button>  
+            <button id="cuatro" >4</button>
+            <button id="cinco">5</button>
+            <button id="seis">6</button>
+            <button onclick="suma" id="sumar">+</button>
+            <button id="uno" >1</button>
+            <button id="dos">2</button>
+            <button id="tres">3</button>
+            <button id="punto">.</button>   
+            <button id="cero">0</button>
+            <button id="igual">=</button>
+        </div>
     </div>
+    <script src="kal.js"></script>
 </body>
 </html>
